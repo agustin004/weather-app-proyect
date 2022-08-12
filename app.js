@@ -30,7 +30,7 @@ window.addEventListener('load', ()=> {
             .then( data => {
                 //console.log(data)
                 
-                let temp = Math.round(data.main.temp)
+                let temp = Math.round(data.main.temp -271)
                 //console.log(temp)
                 temperaturaValor.textContent = `${temp} ° C`
 
